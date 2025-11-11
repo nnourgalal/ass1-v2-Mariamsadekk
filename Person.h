@@ -4,8 +4,23 @@
 #include <string>
 using namespace std;
 
-//#write Person class here
+class Person {
+private:
+    string name;
+    int id;
+public:
+    Person(string n, int id) {
+        name = n;
+        id = id;
+        void display();
 
+    }
+
+    getPerson() {
+        return Person
+    }
+
+};
 
 
 
